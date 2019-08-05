@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Sentinel</string>
     <string name="action_settings">Settings</string>
+    <string name="package_name">com.example.sentinel</string>
+    <string name="full_date_time">EEE MMM d HH:mm:ss zz yyyy</string>
+    <string name="does_db_exist">does_db_exist</string>
+    <string name="database_name">com.example.sentinel.database</string>
+    <string name="table_name_all_notification">All notification</string>
+    <string name="column_name_id">Id</string>
+    <string name="column_name_app_name">AppName</string>
+    <string name="column_name_notif_title">Title</string>
+    <string name="column_name_notif_desc">Description</string>
+    <string name="column_name_notif_timestamp">TimeStamp</string>
+    <string name="column_name_priority">Priority</string>
 </resources>

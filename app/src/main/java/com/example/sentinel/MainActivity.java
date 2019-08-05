@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
     private ViewPager viewPager;
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        Master.getNotificationAccess();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
